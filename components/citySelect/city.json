@@ -1,0 +1,2837 @@
+{
+	"data": {
+		"alphabet": [
+			"A",
+			"B",
+			"C",
+			"D",
+			"E",
+			"F",
+			"G",
+			"H",
+			"I",
+			"J",
+			"K",
+			"L",
+			"M",
+			"N",
+			"O",
+			"P",
+			"Q",
+			"R",
+			"S",
+			"T",
+			"U",
+			"V",
+			"W",
+			"X",
+			"Y",
+			"Z"
+		],
+		"hotcity": [{
+				"code": "110100000000",
+				"pcity": "北京市",
+				"city": "北京市",
+				"pcode": "110000000000",
+				"level": 2,
+				"py": "beijingshi"
+			},
+			{
+				"code": "310100000000",
+				"pcity": "上海市",
+				"city": "上海市",
+				"pcode": "310000000000",
+				"level": 2,
+				"py": "shanghaishi"
+			},
+			{
+				"code": "320100000000",
+				"pcity": "江苏省",
+				"city": "南京市",
+				"pcode": "320000000000",
+				"level": 2,
+				"py": "nanjingshi"
+			},
+			{
+				"code": "440100000000",
+				"pcity": "广东省",
+				"city": "广州市",
+				"pcode": "440000000000",
+				"level": 2,
+				"py": "guangzhoushi"
+			},
+			{
+				"code": "440300000000",
+				"pcity": "广东省",
+				"city": "深圳市",
+				"pcode": "440000000000",
+				"level": 2,
+				"py": "shenzhenshi"
+			}
+		],
+		"cities": {
+			"A": [{
+					"code": "152900000000",
+					"pcity": "内蒙古自治区",
+					"city": "阿拉善盟",
+					"pcode": "150000000000",
+					"level": 2,
+					"py": "alashanmeng"
+				},
+				{
+					"code": "210300000000",
+					"pcity": "辽宁省",
+					"city": "鞍山市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "anshanshi"
+				},
+				{
+					"code": "340800000000",
+					"pcity": "安徽省",
+					"city": "安庆市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "anqingshi"
+				},
+				{
+					"code": "410500000000",
+					"pcity": "河南省",
+					"city": "安阳市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "anyangshi"
+				},
+				{
+					"code": "513200000000",
+					"pcity": "四川省",
+					"city": "阿坝藏族羌族自治州",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "abazangzuqiangzuzizhizhou"
+				},
+				{
+					"code": "520400000000",
+					"pcity": "贵州省",
+					"city": "安顺市",
+					"pcode": "520000000000",
+					"level": 2,
+					"py": "anshunshi"
+				},
+				{
+					"code": "542500000000",
+					"pcity": "西藏自治区",
+					"city": "阿里地区",
+					"pcode": "540000000000",
+					"level": 2,
+					"py": "alidiqu"
+				},
+				{
+					"code": "610900000000",
+					"pcity": "陕西省",
+					"city": "安康市",
+					"pcode": "610000000000",
+					"level": 2,
+					"py": "ankangshi"
+				},
+				{
+					"code": "652900000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "阿克苏地区",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "akesudiqu"
+				},
+				{
+					"code": "654300000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "阿勒泰地区",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "aletaidiqu"
+				}
+			],
+			"B": [{
+					"code": "110100000000",
+					"pcity": "北京市",
+					"city": "北京市",
+					"pcode": "110000000000",
+					"level": 2,
+					"py": "beijingshi"
+				},
+				{
+					"code": "130600000000",
+					"pcity": "河北省",
+					"city": "保定市",
+					"pcode": "130000000000",
+					"level": 2,
+					"py": "baodingshi"
+				},
+				{
+					"code": "150200000000",
+					"pcity": "内蒙古自治区",
+					"city": "包头市",
+					"pcode": "150000000000",
+					"level": 2,
+					"py": "baotoushi"
+				},
+				{
+					"code": "150800000000",
+					"pcity": "内蒙古自治区",
+					"city": "巴彦淖尔市",
+					"pcode": "150000000000",
+					"level": 2,
+					"py": "bayannaoershi"
+				},
+				{
+					"code": "210500000000",
+					"pcity": "辽宁省",
+					"city": "本溪市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "benxishi"
+				},
+				{
+					"code": "220600000000",
+					"pcity": "吉林省",
+					"city": "白山市",
+					"pcode": "220000000000",
+					"level": 2,
+					"py": "baishanshi"
+				},
+				{
+					"code": "220800000000",
+					"pcity": "吉林省",
+					"city": "白城市",
+					"pcode": "220000000000",
+					"level": 2,
+					"py": "baichengshi"
+				},
+				{
+					"code": "340300000000",
+					"pcity": "安徽省",
+					"city": "蚌埠市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "bangbushi"
+				},
+				{
+					"code": "341600000000",
+					"pcity": "安徽省",
+					"city": "亳州市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "bozhoushi"
+				},
+				{
+					"code": "371600000000",
+					"pcity": "山东省",
+					"city": "滨州市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "binzhoushi"
+				},
+				{
+					"code": "450500000000",
+					"pcity": "广西壮族自治区",
+					"city": "北海市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "beihaishi"
+				},
+				{
+					"code": "451000000000",
+					"pcity": "广西壮族自治区",
+					"city": "百色市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "baiseshi"
+				},
+				{
+					"code": "511900000000",
+					"pcity": "四川省",
+					"city": "巴中市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "bazhongshi"
+				},
+				{
+					"code": "520500000000",
+					"pcity": "贵州省",
+					"city": "毕节市",
+					"pcode": "520000000000",
+					"level": 2,
+					"py": "bijieshi"
+				},
+				{
+					"code": "530500000000",
+					"pcity": "云南省",
+					"city": "保山市",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "baoshanshi"
+				},
+				{
+					"code": "610300000000",
+					"pcity": "陕西省",
+					"city": "宝鸡市",
+					"pcode": "610000000000",
+					"level": 2,
+					"py": "baojishi"
+				},
+				{
+					"code": "620400000000",
+					"pcity": "甘肃省",
+					"city": "白银市",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "baiyinshi"
+				},
+				{
+					"code": "652700000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "博尔塔拉蒙古自治州",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "boertalamengguzizhizhou"
+				},
+				{
+					"code": "652800000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "巴音郭楞蒙古自治州",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "bayinguolengmengguzizhizhou"
+				}
+			],
+			"C": [{
+					"code": "130800000000",
+					"pcity": "河北省",
+					"city": "承德市",
+					"pcode": "130000000000",
+					"level": 2,
+					"py": "chengdeshi"
+				},
+				{
+					"code": "130900000000",
+					"pcity": "河北省",
+					"city": "沧州市",
+					"pcode": "130000000000",
+					"level": 2,
+					"py": "cangzhoushi"
+				},
+				{
+					"code": "150400000000",
+					"pcity": "内蒙古自治区",
+					"city": "赤峰市",
+					"pcode": "150000000000",
+					"level": 2,
+					"py": "chifengshi"
+				},
+				{
+					"code": "211300000000",
+					"pcity": "辽宁省",
+					"city": "朝阳市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "chaoyangshi"
+				},
+				{
+					"code": "320400000000",
+					"pcity": "江苏省",
+					"city": "常州市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "changzhoushi"
+				},
+				{
+					"code": "341100000000",
+					"pcity": "安徽省",
+					"city": "滁州市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "chuzhoushi"
+				},
+				{
+					"code": "341700000000",
+					"pcity": "安徽省",
+					"city": "池州市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "chizhoushi"
+				},
+				{
+					"code": "430700000000",
+					"pcity": "湖南省",
+					"city": "常德市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "changdeshi"
+				},
+				{
+					"code": "431000000000",
+					"pcity": "湖南省",
+					"city": "郴州市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "chenzhoushi"
+				},
+				{
+					"code": "445100000000",
+					"pcity": "广东省",
+					"city": "潮州市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "chaozhoushi"
+				},
+				{
+					"code": "451400000000",
+					"pcity": "广西壮族自治区",
+					"city": "崇左市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "chongzuoshi"
+				},
+				{
+					"code": "510100000000",
+					"pcity": "四川省",
+					"city": "成都市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "chengdoushi"
+				},
+				{
+					"code": "532300000000",
+					"pcity": "云南省",
+					"city": "楚雄彝族自治州",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "chuxiongyizuzizhizhou"
+				},
+				{
+					"code": "540300000000",
+					"pcity": "西藏自治区",
+					"city": "昌都市",
+					"pcode": "540000000000",
+					"level": 2,
+					"py": "changdoushi"
+				},
+				{
+					"code": "652300000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "昌吉回族自治州",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "changjihuizuzizhizhou"
+				}
+			],
+			"D": [{
+					"code": "140200000000",
+					"pcity": "山西省",
+					"city": "大同市",
+					"pcode": "140000000000",
+					"level": 2,
+					"py": "datongshi"
+				},
+				{
+					"code": "210200000000",
+					"pcity": "辽宁省",
+					"city": "大连市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "dalianshi"
+				},
+				{
+					"code": "210600000000",
+					"pcity": "辽宁省",
+					"city": "丹东市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "dandongshi"
+				},
+				{
+					"code": "230600000000",
+					"pcity": "黑龙江省",
+					"city": "大庆市",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "daqingshi"
+				},
+				{
+					"code": "232700000000",
+					"pcity": "黑龙江省",
+					"city": "大兴安岭地区",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "daxinganlingdiqu"
+				},
+				{
+					"code": "370500000000",
+					"pcity": "山东省",
+					"city": "东营市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "dongyingshi"
+				},
+				{
+					"code": "371400000000",
+					"pcity": "山东省",
+					"city": "德州市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "dezhoushi"
+				},
+				{
+					"code": "441900000000",
+					"pcity": "广东省",
+					"city": "东莞市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "dongguanshi"
+				},
+				{
+					"code": "460400000000",
+					"pcity": "海南省",
+					"city": "儋州市",
+					"pcode": "460000000000",
+					"level": 2,
+					"py": "danzhoushi"
+				},
+				{
+					"code": "510600000000",
+					"pcity": "四川省",
+					"city": "德阳市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "deyangshi"
+				},
+				{
+					"code": "511700000000",
+					"pcity": "四川省",
+					"city": "达州市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "dazhoushi"
+				},
+				{
+					"code": "532900000000",
+					"pcity": "云南省",
+					"city": "大理白族自治州",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "dalibaizuzizhizhou"
+				},
+				{
+					"code": "533100000000",
+					"pcity": "云南省",
+					"city": "德宏傣族景颇族自治州",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "dehongdaizujingpozuzizhizhou"
+				},
+				{
+					"code": "533400000000",
+					"pcity": "云南省",
+					"city": "迪庆藏族自治州",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "diqingzangzuzizhizhou"
+				},
+				{
+					"code": "621100000000",
+					"pcity": "甘肃省",
+					"city": "定西市",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "dingxishi"
+				}
+			],
+			"E": [{
+					"code": "150600000000",
+					"pcity": "内蒙古自治区",
+					"city": "鄂尔多斯市",
+					"pcode": "150000000000",
+					"level": 2,
+					"py": "eerduosishi"
+				},
+				{
+					"code": "420700000000",
+					"pcity": "湖北省",
+					"city": "鄂州市",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "ezhoushi"
+				},
+				{
+					"code": "422800000000",
+					"pcity": "湖北省",
+					"city": "恩施土家族苗族自治州",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "enshitujiazumiaozuzizhizhou"
+				}
+			],
+			"F": [{
+					"code": "210400000000",
+					"pcity": "辽宁省",
+					"city": "抚顺市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "fushunshi"
+				},
+				{
+					"code": "210900000000",
+					"pcity": "辽宁省",
+					"city": "阜新市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "fuxinshi"
+				},
+				{
+					"code": "341200000000",
+					"pcity": "安徽省",
+					"city": "阜阳市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "fuyangshi"
+				},
+				{
+					"code": "350100000000",
+					"pcity": "福建省",
+					"city": "福州市",
+					"pcode": "350000000000",
+					"level": 2,
+					"py": "fuzhoushi"
+				},
+				{
+					"code": "361000000000",
+					"pcity": "江西省",
+					"city": "抚州市",
+					"pcode": "360000000000",
+					"level": 2,
+					"py": "fuzhoushi"
+				},
+				{
+					"code": "440600000000",
+					"pcity": "广东省",
+					"city": "佛山市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "foshanshi"
+				},
+				{
+					"code": "450600000000",
+					"pcity": "广西壮族自治区",
+					"city": "防城港市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "fangchenggangshi"
+				}
+			],
+			"G": [{
+					"code": "360700000000",
+					"pcity": "江西省",
+					"city": "赣州市",
+					"pcode": "360000000000",
+					"level": 2,
+					"py": "ganzhoushi"
+				},
+				{
+					"code": "440100000000",
+					"pcity": "广东省",
+					"city": "广州市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "guangzhoushi"
+				},
+				{
+					"code": "450300000000",
+					"pcity": "广西壮族自治区",
+					"city": "桂林市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "guilinshi"
+				},
+				{
+					"code": "450800000000",
+					"pcity": "广西壮族自治区",
+					"city": "贵港市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "guigangshi"
+				},
+				{
+					"code": "510800000000",
+					"pcity": "四川省",
+					"city": "广元市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "guangyuanshi"
+				},
+				{
+					"code": "511600000000",
+					"pcity": "四川省",
+					"city": "广安市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "guanganshi"
+				},
+				{
+					"code": "513300000000",
+					"pcity": "四川省",
+					"city": "甘孜藏族自治州",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "ganzizangzuzizhizhou"
+				},
+				{
+					"code": "520100000000",
+					"pcity": "贵州省",
+					"city": "贵阳市",
+					"pcode": "520000000000",
+					"level": 2,
+					"py": "guiyangshi"
+				},
+				{
+					"code": "623000000000",
+					"pcity": "甘肃省",
+					"city": "甘南藏族自治州",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "gannanzangzuzizhizhou"
+				},
+				{
+					"code": "632600000000",
+					"pcity": "青海省",
+					"city": "果洛藏族自治州",
+					"pcode": "630000000000",
+					"level": 2,
+					"py": "guoluozangzuzizhizhou"
+				},
+				{
+					"code": "640400000000",
+					"pcity": "宁夏回族自治区",
+					"city": "固原市",
+					"pcode": "640000000000",
+					"level": 2,
+					"py": "guyuanshi"
+				}
+			],
+			"H": [{
+					"code": "130400000000",
+					"pcity": "河北省",
+					"city": "邯郸市",
+					"pcode": "130000000000",
+					"level": 2,
+					"py": "handanshi"
+				},
+				{
+					"code": "131100000000",
+					"pcity": "河北省",
+					"city": "衡水市",
+					"pcode": "130000000000",
+					"level": 2,
+					"py": "hengshuishi"
+				},
+				{
+					"code": "150100000000",
+					"pcity": "内蒙古自治区",
+					"city": "呼和浩特市",
+					"pcode": "150000000000",
+					"level": 2,
+					"py": "huhehaoteshi"
+				},
+				{
+					"code": "150700000000",
+					"pcity": "内蒙古自治区",
+					"city": "呼伦贝尔市",
+					"pcode": "150000000000",
+					"level": 2,
+					"py": "hulunbeiershi"
+				},
+				{
+					"code": "211400000000",
+					"pcity": "辽宁省",
+					"city": "葫芦岛市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "huludaoshi"
+				},
+				{
+					"code": "230100000000",
+					"pcity": "黑龙江省",
+					"city": "哈尔滨市",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "haerbinshi"
+				},
+				{
+					"code": "230400000000",
+					"pcity": "黑龙江省",
+					"city": "鹤岗市",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "hegangshi"
+				},
+				{
+					"code": "231100000000",
+					"pcity": "黑龙江省",
+					"city": "黑河市",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "heiheshi"
+				},
+				{
+					"code": "320800000000",
+					"pcity": "江苏省",
+					"city": "淮安市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "huaianshi"
+				},
+				{
+					"code": "330100000000",
+					"pcity": "浙江省",
+					"city": "杭州市",
+					"pcode": "330000000000",
+					"level": 2,
+					"py": "hangzhoushi"
+				},
+				{
+					"code": "330500000000",
+					"pcity": "浙江省",
+					"city": "湖州市",
+					"pcode": "330000000000",
+					"level": 2,
+					"py": "huzhoushi"
+				},
+				{
+					"code": "340100000000",
+					"pcity": "安徽省",
+					"city": "合肥市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "hefeishi"
+				},
+				{
+					"code": "340400000000",
+					"pcity": "安徽省",
+					"city": "淮南市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "huainanshi"
+				},
+				{
+					"code": "340600000000",
+					"pcity": "安徽省",
+					"city": "淮北市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "huaibeishi"
+				},
+				{
+					"code": "341000000000",
+					"pcity": "安徽省",
+					"city": "黄山市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "huangshanshi"
+				},
+				{
+					"code": "371700000000",
+					"pcity": "山东省",
+					"city": "菏泽市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "hezeshi"
+				},
+				{
+					"code": "410600000000",
+					"pcity": "河南省",
+					"city": "鹤壁市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "hebishi"
+				},
+				{
+					"code": "420200000000",
+					"pcity": "湖北省",
+					"city": "黄石市",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "huangshishi"
+				},
+				{
+					"code": "421100000000",
+					"pcity": "湖北省",
+					"city": "黄冈市",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "huanggangshi"
+				},
+				{
+					"code": "430400000000",
+					"pcity": "湖南省",
+					"city": "衡阳市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "hengyangshi"
+				},
+				{
+					"code": "431200000000",
+					"pcity": "湖南省",
+					"city": "怀化市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "huaihuashi"
+				},
+				{
+					"code": "441300000000",
+					"pcity": "广东省",
+					"city": "惠州市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "huizhoushi"
+				},
+				{
+					"code": "441600000000",
+					"pcity": "广东省",
+					"city": "河源市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "heyuanshi"
+				},
+				{
+					"code": "451100000000",
+					"pcity": "广西壮族自治区",
+					"city": "贺州市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "hezhoushi"
+				},
+				{
+					"code": "451200000000",
+					"pcity": "广西壮族自治区",
+					"city": "河池市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "hechishi"
+				},
+				{
+					"code": "460100000000",
+					"pcity": "海南省",
+					"city": "海口市",
+					"pcode": "460000000000",
+					"level": 2,
+					"py": "haikoushi"
+				},
+				{
+					"code": "532500000000",
+					"pcity": "云南省",
+					"city": "红河哈尼族彝族自治州",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "honghehanizuyizuzizhizhou"
+				},
+				{
+					"code": "610700000000",
+					"pcity": "陕西省",
+					"city": "汉中市",
+					"pcode": "610000000000",
+					"level": 2,
+					"py": "hanzhongshi"
+				},
+				{
+					"code": "630200000000",
+					"pcity": "青海省",
+					"city": "海东市",
+					"pcode": "630000000000",
+					"level": 2,
+					"py": "haidongshi"
+				},
+				{
+					"code": "632200000000",
+					"pcity": "青海省",
+					"city": "海北藏族自治州",
+					"pcode": "630000000000",
+					"level": 2,
+					"py": "haibeizangzuzizhizhou"
+				},
+				{
+					"code": "632300000000",
+					"pcity": "青海省",
+					"city": "黄南藏族自治州",
+					"pcode": "630000000000",
+					"level": 2,
+					"py": "huangnanzangzuzizhizhou"
+				},
+				{
+					"code": "632500000000",
+					"pcity": "青海省",
+					"city": "海南藏族自治州",
+					"pcode": "630000000000",
+					"level": 2,
+					"py": "hainanzangzuzizhizhou"
+				},
+				{
+					"code": "632800000000",
+					"pcity": "青海省",
+					"city": "海西蒙古族藏族自治州",
+					"pcode": "630000000000",
+					"level": 2,
+					"py": "haiximengguzuzangzuzizhizhou"
+				},
+				{
+					"code": "650500000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "哈密市",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "hamishi"
+				},
+				{
+					"code": "653200000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "和田地区",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "hetiandiqu"
+				}
+			],
+			"I": [],
+			"J": [{
+					"code": "140500000000",
+					"pcity": "山西省",
+					"city": "晋城市",
+					"pcode": "140000000000",
+					"level": 2,
+					"py": "jinchengshi"
+				},
+				{
+					"code": "140700000000",
+					"pcity": "山西省",
+					"city": "晋中市",
+					"pcode": "140000000000",
+					"level": 2,
+					"py": "jinzhongshi"
+				},
+				{
+					"code": "210700000000",
+					"pcity": "辽宁省",
+					"city": "锦州市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "jinzhoushi"
+				},
+				{
+					"code": "220200000000",
+					"pcity": "吉林省",
+					"city": "吉林市",
+					"pcode": "220000000000",
+					"level": 2,
+					"py": "jilinshi"
+				},
+				{
+					"code": "230300000000",
+					"pcity": "黑龙江省",
+					"city": "鸡西市",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "jixishi"
+				},
+				{
+					"code": "230800000000",
+					"pcity": "黑龙江省",
+					"city": "佳木斯市",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "jiamusishi"
+				},
+				{
+					"code": "330400000000",
+					"pcity": "浙江省",
+					"city": "嘉兴市",
+					"pcode": "330000000000",
+					"level": 2,
+					"py": "jiaxingshi"
+				},
+				{
+					"code": "330700000000",
+					"pcity": "浙江省",
+					"city": "金华市",
+					"pcode": "330000000000",
+					"level": 2,
+					"py": "jinhuashi"
+				},
+				{
+					"code": "360200000000",
+					"pcity": "江西省",
+					"city": "景德镇市",
+					"pcode": "360000000000",
+					"level": 2,
+					"py": "jingdezhenshi"
+				},
+				{
+					"code": "360400000000",
+					"pcity": "江西省",
+					"city": "九江市",
+					"pcode": "360000000000",
+					"level": 2,
+					"py": "jiujiangshi"
+				},
+				{
+					"code": "360800000000",
+					"pcity": "江西省",
+					"city": "吉安市",
+					"pcode": "360000000000",
+					"level": 2,
+					"py": "jianshi"
+				},
+				{
+					"code": "370100000000",
+					"pcity": "山东省",
+					"city": "济南市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "jinanshi"
+				},
+				{
+					"code": "370800000000",
+					"pcity": "山东省",
+					"city": "济宁市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "jiningshi"
+				},
+				{
+					"code": "410800000000",
+					"pcity": "河南省",
+					"city": "焦作市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "jiaozuoshi"
+				},
+				{
+					"code": "420800000000",
+					"pcity": "湖北省",
+					"city": "荆门市",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "jingmenshi"
+				},
+				{
+					"code": "421000000000",
+					"pcity": "湖北省",
+					"city": "荆州市",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "jingzhoushi"
+				},
+				{
+					"code": "440700000000",
+					"pcity": "广东省",
+					"city": "江门市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "jiangmenshi"
+				},
+				{
+					"code": "445200000000",
+					"pcity": "广东省",
+					"city": "揭阳市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "jieyangshi"
+				},
+				{
+					"code": "620200000000",
+					"pcity": "甘肃省",
+					"city": "嘉峪关市",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "jiayuguanshi"
+				},
+				{
+					"code": "620300000000",
+					"pcity": "甘肃省",
+					"city": "金昌市",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "jinchangshi"
+				},
+				{
+					"code": "620900000000",
+					"pcity": "甘肃省",
+					"city": "酒泉市",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "jiuquanshi"
+				}
+			],
+			"K": [{
+					"code": "410200000000",
+					"pcity": "河南省",
+					"city": "开封市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "kaifengshi"
+				},
+				{
+					"code": "530100000000",
+					"pcity": "云南省",
+					"city": "昆明市",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "kunmingshi"
+				},
+				{
+					"code": "650200000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "克拉玛依市",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "kelamayishi"
+				},
+				{
+					"code": "653000000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "克孜勒苏柯尔克孜自治州",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "kezilesukeerkezizizhizhou"
+				},
+				{
+					"code": "653100000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "喀什地区",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "kashendiqu"
+				}
+			],
+			"L": [{
+					"code": "131000000000",
+					"pcity": "河北省",
+					"city": "廊坊市",
+					"pcode": "130000000000",
+					"level": 2,
+					"py": "langfangshi"
+				},
+				{
+					"code": "141000000000",
+					"pcity": "山西省",
+					"city": "临汾市",
+					"pcode": "140000000000",
+					"level": 2,
+					"py": "linfenshi"
+				},
+				{
+					"code": "141100000000",
+					"pcity": "山西省",
+					"city": "吕梁市",
+					"pcode": "140000000000",
+					"level": 2,
+					"py": "lu:liangshi"
+				},
+				{
+					"code": "211000000000",
+					"pcity": "辽宁省",
+					"city": "辽阳市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "liaoyangshi"
+				},
+				{
+					"code": "220400000000",
+					"pcity": "吉林省",
+					"city": "辽源市",
+					"pcode": "220000000000",
+					"level": 2,
+					"py": "liaoyuanshi"
+				},
+				{
+					"code": "320700000000",
+					"pcity": "江苏省",
+					"city": "连云港市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "lianyungangshi"
+				},
+				{
+					"code": "331100000000",
+					"pcity": "浙江省",
+					"city": "丽水市",
+					"pcode": "330000000000",
+					"level": 2,
+					"py": "lishuishi"
+				},
+				{
+					"code": "341500000000",
+					"pcity": "安徽省",
+					"city": "六安市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "liuanshi"
+				},
+				{
+					"code": "350800000000",
+					"pcity": "福建省",
+					"city": "龙岩市",
+					"pcode": "350000000000",
+					"level": 2,
+					"py": "longyanshi"
+				},
+				{
+					"code": "371300000000",
+					"pcity": "山东省",
+					"city": "临沂市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "linyishi"
+				},
+				{
+					"code": "371500000000",
+					"pcity": "山东省",
+					"city": "聊城市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "liaochengshi"
+				},
+				{
+					"code": "410300000000",
+					"pcity": "河南省",
+					"city": "洛阳市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "luoyangshi"
+				},
+				{
+					"code": "411100000000",
+					"pcity": "河南省",
+					"city": "漯河市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "luoheshi"
+				},
+				{
+					"code": "431300000000",
+					"pcity": "湖南省",
+					"city": "娄底市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "loudishi"
+				},
+				{
+					"code": "450200000000",
+					"pcity": "广西壮族自治区",
+					"city": "柳州市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "liuzhoushi"
+				},
+				{
+					"code": "451300000000",
+					"pcity": "广西壮族自治区",
+					"city": "来宾市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "laibinshi"
+				},
+				{
+					"code": "510500000000",
+					"pcity": "四川省",
+					"city": "泸州市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "luzhoushi"
+				},
+				{
+					"code": "511100000000",
+					"pcity": "四川省",
+					"city": "乐山市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "leshanshi"
+				},
+				{
+					"code": "513400000000",
+					"pcity": "四川省",
+					"city": "凉山彝族自治州",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "liangshanyizuzizhizhou"
+				},
+				{
+					"code": "520200000000",
+					"pcity": "贵州省",
+					"city": "六盘水市",
+					"pcode": "520000000000",
+					"level": 2,
+					"py": "liupanshuishi"
+				},
+				{
+					"code": "530700000000",
+					"pcity": "云南省",
+					"city": "丽江市",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "lijiangshi"
+				},
+				{
+					"code": "530900000000",
+					"pcity": "云南省",
+					"city": "临沧市",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "lincangshi"
+				},
+				{
+					"code": "540100000000",
+					"pcity": "西藏自治区",
+					"city": "拉萨市",
+					"pcode": "540000000000",
+					"level": 2,
+					"py": "lasashi"
+				},
+				{
+					"code": "540400000000",
+					"pcity": "西藏自治区",
+					"city": "林芝市",
+					"pcode": "540000000000",
+					"level": 2,
+					"py": "linzhishi"
+				},
+				{
+					"code": "620100000000",
+					"pcity": "甘肃省",
+					"city": "兰州市",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "lanzhoushi"
+				},
+				{
+					"code": "621200000000",
+					"pcity": "甘肃省",
+					"city": "陇南市",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "longnanshi"
+				},
+				{
+					"code": "622900000000",
+					"pcity": "甘肃省",
+					"city": "临夏回族自治州",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "linxiahuizuzizhizhou"
+				}
+			],
+			"M": [{
+					"code": "231000000000",
+					"pcity": "黑龙江省",
+					"city": "牡丹江市",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "mudanjiangshi"
+				},
+				{
+					"code": "340500000000",
+					"pcity": "安徽省",
+					"city": "马鞍山市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "maanshanshi"
+				},
+				{
+					"code": "440900000000",
+					"pcity": "广东省",
+					"city": "茂名市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "maomingshi"
+				},
+				{
+					"code": "441400000000",
+					"pcity": "广东省",
+					"city": "梅州市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "meizhoushi"
+				},
+				{
+					"code": "510700000000",
+					"pcity": "四川省",
+					"city": "绵阳市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "mianyangshi"
+				},
+				{
+					"code": "511400000000",
+					"pcity": "四川省",
+					"city": "眉山市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "meishanshi"
+				}
+			],
+			"N": [{
+					"code": "320100000000",
+					"pcity": "江苏省",
+					"city": "南京市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "nanjingshi"
+				},
+				{
+					"code": "320600000000",
+					"pcity": "江苏省",
+					"city": "南通市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "nantongshi"
+				},
+				{
+					"code": "330200000000",
+					"pcity": "浙江省",
+					"city": "宁波市",
+					"pcode": "330000000000",
+					"level": 2,
+					"py": "ningboshi"
+				},
+				{
+					"code": "350700000000",
+					"pcity": "福建省",
+					"city": "南平市",
+					"pcode": "350000000000",
+					"level": 2,
+					"py": "nanpingshi"
+				},
+				{
+					"code": "350900000000",
+					"pcity": "福建省",
+					"city": "宁德市",
+					"pcode": "350000000000",
+					"level": 2,
+					"py": "ningdeshi"
+				},
+				{
+					"code": "360100000000",
+					"pcity": "江西省",
+					"city": "南昌市",
+					"pcode": "360000000000",
+					"level": 2,
+					"py": "nanchangshi"
+				},
+				{
+					"code": "411300000000",
+					"pcity": "河南省",
+					"city": "南阳市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "nanyangshi"
+				},
+				{
+					"code": "450100000000",
+					"pcity": "广西壮族自治区",
+					"city": "南宁市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "nanningshi"
+				},
+				{
+					"code": "511000000000",
+					"pcity": "四川省",
+					"city": "内江市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "neijiangshi"
+				},
+				{
+					"code": "511300000000",
+					"pcity": "四川省",
+					"city": "南充市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "nanchongshi"
+				},
+				{
+					"code": "533300000000",
+					"pcity": "云南省",
+					"city": "怒江傈僳族自治州",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "nujianglisuzuzizhizhou"
+				},
+				{
+					"code": "540600000000",
+					"pcity": "西藏自治区",
+					"city": "那曲市",
+					"pcode": "540000000000",
+					"level": 2,
+					"py": "neiqushi"
+				}
+			],
+			"O": [],
+			"P": [{
+					"code": "211100000000",
+					"pcity": "辽宁省",
+					"city": "盘锦市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "panjinshi"
+				},
+				{
+					"code": "350300000000",
+					"pcity": "福建省",
+					"city": "莆田市",
+					"pcode": "350000000000",
+					"level": 2,
+					"py": "putianshi"
+				},
+				{
+					"code": "360300000000",
+					"pcity": "江西省",
+					"city": "萍乡市",
+					"pcode": "360000000000",
+					"level": 2,
+					"py": "pingxiangshi"
+				},
+				{
+					"code": "410400000000",
+					"pcity": "河南省",
+					"city": "平顶山市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "pingdingshanshi"
+				},
+				{
+					"code": "410900000000",
+					"pcity": "河南省",
+					"city": "濮阳市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "puyangshi"
+				},
+				{
+					"code": "510400000000",
+					"pcity": "四川省",
+					"city": "攀枝花市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "panzhihuashi"
+				},
+				{
+					"code": "530800000000",
+					"pcity": "云南省",
+					"city": "普洱市",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "puershi"
+				},
+				{
+					"code": "620800000000",
+					"pcity": "甘肃省",
+					"city": "平凉市",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "pingliangshi"
+				}
+			],
+			"Q": [{
+					"code": "130300000000",
+					"pcity": "河北省",
+					"city": "秦皇岛市",
+					"pcode": "130000000000",
+					"level": 2,
+					"py": "qinhuangdaoshi"
+				},
+				{
+					"code": "230200000000",
+					"pcity": "黑龙江省",
+					"city": "齐齐哈尔市",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "qiqihaershi"
+				},
+				{
+					"code": "230900000000",
+					"pcity": "黑龙江省",
+					"city": "七台河市",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "qitaiheshi"
+				},
+				{
+					"code": "330800000000",
+					"pcity": "浙江省",
+					"city": "衢州市",
+					"pcode": "330000000000",
+					"level": 2,
+					"py": "quzhoushi"
+				},
+				{
+					"code": "350500000000",
+					"pcity": "福建省",
+					"city": "泉州市",
+					"pcode": "350000000000",
+					"level": 2,
+					"py": "quanzhoushi"
+				},
+				{
+					"code": "370200000000",
+					"pcity": "山东省",
+					"city": "青岛市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "qingdaoshi"
+				},
+				{
+					"code": "441800000000",
+					"pcity": "广东省",
+					"city": "清远市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "qingyuanshi"
+				},
+				{
+					"code": "450700000000",
+					"pcity": "广西壮族自治区",
+					"city": "钦州市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "qinzhoushi"
+				},
+				{
+					"code": "522300000000",
+					"pcity": "贵州省",
+					"city": "黔西南布依族苗族自治州",
+					"pcode": "520000000000",
+					"level": 2,
+					"py": "qianxinanbuyizumiaozuzizhizhou"
+				},
+				{
+					"code": "522600000000",
+					"pcity": "贵州省",
+					"city": "黔东南苗族侗族自治州",
+					"pcode": "520000000000",
+					"level": 2,
+					"py": "qiandongnanmiaozudongzuzizhizhou"
+				},
+				{
+					"code": "522700000000",
+					"pcity": "贵州省",
+					"city": "黔南布依族苗族自治州",
+					"pcode": "520000000000",
+					"level": 2,
+					"py": "qiannanbuyizumiaozuzizhizhou"
+				},
+				{
+					"code": "530300000000",
+					"pcity": "云南省",
+					"city": "曲靖市",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "qujingshi"
+				},
+				{
+					"code": "621000000000",
+					"pcity": "甘肃省",
+					"city": "庆阳市",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "qingyangshi"
+				}
+			],
+			"R": [{
+					"code": "371100000000",
+					"pcity": "山东省",
+					"city": "日照市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "rizhaoshi"
+				},
+				{
+					"code": "540200000000",
+					"pcity": "西藏自治区",
+					"city": "日喀则市",
+					"pcode": "540000000000",
+					"level": 2,
+					"py": "rikazeshi"
+				}
+			],
+			"S": [{
+					"code": "130100000000",
+					"pcity": "河北省",
+					"city": "石家庄市",
+					"pcode": "130000000000",
+					"level": 2,
+					"py": "shijiazhuangshi"
+				},
+				{
+					"code": "140600000000",
+					"pcity": "山西省",
+					"city": "朔州市",
+					"pcode": "140000000000",
+					"level": 2,
+					"py": "shuozhoushi"
+				},
+				{
+					"code": "210100000000",
+					"pcity": "辽宁省",
+					"city": "沈阳市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "shenyangshi"
+				},
+				{
+					"code": "220300000000",
+					"pcity": "吉林省",
+					"city": "四平市",
+					"pcode": "220000000000",
+					"level": 2,
+					"py": "sipingshi"
+				},
+				{
+					"code": "220700000000",
+					"pcity": "吉林省",
+					"city": "松原市",
+					"pcode": "220000000000",
+					"level": 2,
+					"py": "songyuanshi"
+				},
+				{
+					"code": "230500000000",
+					"pcity": "黑龙江省",
+					"city": "双鸭山市",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "shuangyashanshi"
+				},
+				{
+					"code": "231200000000",
+					"pcity": "黑龙江省",
+					"city": "绥化市",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "suihuashi"
+				},
+				{
+					"code": "310100000000",
+					"pcity": "上海市",
+					"city": "上海市",
+					"pcode": "310000000000",
+					"level": 2,
+					"py": "shanghaishi"
+				},
+				{
+					"code": "320500000000",
+					"pcity": "江苏省",
+					"city": "苏州市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "suzhoushi"
+				},
+				{
+					"code": "321300000000",
+					"pcity": "江苏省",
+					"city": "宿迁市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "suqianshi"
+				},
+				{
+					"code": "330600000000",
+					"pcity": "浙江省",
+					"city": "绍兴市",
+					"pcode": "330000000000",
+					"level": 2,
+					"py": "shaoxingshi"
+				},
+				{
+					"code": "341300000000",
+					"pcity": "安徽省",
+					"city": "宿州市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "suzhoushi"
+				},
+				{
+					"code": "350200000000",
+					"pcity": "福建省",
+					"city": "厦门市",
+					"pcode": "350000000000",
+					"level": 2,
+					"py": "shamenshi"
+				},
+				{
+					"code": "350400000000",
+					"pcity": "福建省",
+					"city": "三明市",
+					"pcode": "350000000000",
+					"level": 2,
+					"py": "sanmingshi"
+				},
+				{
+					"code": "361100000000",
+					"pcity": "江西省",
+					"city": "上饶市",
+					"pcode": "360000000000",
+					"level": 2,
+					"py": "shangraoshi"
+				},
+				{
+					"code": "411200000000",
+					"pcity": "河南省",
+					"city": "三门峡市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "sanmenxiashi"
+				},
+				{
+					"code": "411400000000",
+					"pcity": "河南省",
+					"city": "商丘市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "shangqiushi"
+				},
+				{
+					"code": "419000000000",
+					"pcity": "河南省",
+					"city": "省直辖县级行政区划",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "shengzhixiaxianjixingzhengquhua"
+				},
+				{
+					"code": "420300000000",
+					"pcity": "湖北省",
+					"city": "十堰市",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "shiyanshi"
+				},
+				{
+					"code": "421300000000",
+					"pcity": "湖北省",
+					"city": "随州市",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "suizhoushi"
+				},
+				{
+					"code": "429000000000",
+					"pcity": "湖北省",
+					"city": "省直辖县级行政区划",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "shengzhixiaxianjixingzhengquhua"
+				},
+				{
+					"code": "430500000000",
+					"pcity": "湖南省",
+					"city": "邵阳市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "shaoyangshi"
+				},
+				{
+					"code": "440200000000",
+					"pcity": "广东省",
+					"city": "韶关市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "shaoguanshi"
+				},
+				{
+					"code": "440300000000",
+					"pcity": "广东省",
+					"city": "深圳市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "shenzhenshi"
+				},
+				{
+					"code": "440500000000",
+					"pcity": "广东省",
+					"city": "汕头市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "shantoushi"
+				},
+				{
+					"code": "441500000000",
+					"pcity": "广东省",
+					"city": "汕尾市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "shanweishi"
+				},
+				{
+					"code": "460200000000",
+					"pcity": "海南省",
+					"city": "三亚市",
+					"pcode": "460000000000",
+					"level": 2,
+					"py": "sanyashi"
+				},
+				{
+					"code": "460300000000",
+					"pcity": "海南省",
+					"city": "三沙市",
+					"pcode": "460000000000",
+					"level": 2,
+					"py": "sanshashi"
+				},
+				{
+					"code": "469000000000",
+					"pcity": "海南省",
+					"city": "省直辖县级行政区划",
+					"pcode": "460000000000",
+					"level": 2,
+					"py": "shengzhixiaxianjixingzhengquhua"
+				},
+				{
+					"code": "500100000000",
+					"pcity": "重庆市",
+					"city": "市辖区",
+					"pcode": "500000000000",
+					"level": 2,
+					"py": "shixiaqu"
+				},
+				{
+					"code": "510900000000",
+					"pcity": "四川省",
+					"city": "遂宁市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "suiningshi"
+				},
+				{
+					"code": "540500000000",
+					"pcity": "西藏自治区",
+					"city": "山南市",
+					"pcode": "540000000000",
+					"level": 2,
+					"py": "shannanshi"
+				},
+				{
+					"code": "611000000000",
+					"pcity": "陕西省",
+					"city": "商洛市",
+					"pcode": "610000000000",
+					"level": 2,
+					"py": "shangluoshi"
+				},
+				{
+					"code": "640200000000",
+					"pcity": "宁夏回族自治区",
+					"city": "石嘴山市",
+					"pcode": "640000000000",
+					"level": 2,
+					"py": "shizuishanshi"
+				}
+			],
+			"T": [{
+					"code": "120100000000",
+					"pcity": "天津市",
+					"city": "天津市",
+					"pcode": "120000000000",
+					"level": 2,
+					"py": "tianjinshi"
+				},
+				{
+					"code": "130200000000",
+					"pcity": "河北省",
+					"city": "唐山市",
+					"pcode": "130000000000",
+					"level": 2,
+					"py": "tangshanshi"
+				},
+				{
+					"code": "140100000000",
+					"pcity": "山西省",
+					"city": "太原市",
+					"pcode": "140000000000",
+					"level": 2,
+					"py": "taiyuanshi"
+				},
+				{
+					"code": "150500000000",
+					"pcity": "内蒙古自治区",
+					"city": "通辽市",
+					"pcode": "150000000000",
+					"level": 2,
+					"py": "tongliaoshi"
+				},
+				{
+					"code": "211200000000",
+					"pcity": "辽宁省",
+					"city": "铁岭市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "tielingshi"
+				},
+				{
+					"code": "220500000000",
+					"pcity": "吉林省",
+					"city": "通化市",
+					"pcode": "220000000000",
+					"level": 2,
+					"py": "tonghuashi"
+				},
+				{
+					"code": "321200000000",
+					"pcity": "江苏省",
+					"city": "泰州市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "taizhoushi"
+				},
+				{
+					"code": "331000000000",
+					"pcity": "浙江省",
+					"city": "台州市",
+					"pcode": "330000000000",
+					"level": 2,
+					"py": "taizhoushi"
+				},
+				{
+					"code": "340700000000",
+					"pcity": "安徽省",
+					"city": "铜陵市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "tonglingshi"
+				},
+				{
+					"code": "370900000000",
+					"pcity": "山东省",
+					"city": "泰安市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "taianshi"
+				},
+				{
+					"code": "520600000000",
+					"pcity": "贵州省",
+					"city": "铜仁市",
+					"pcode": "520000000000",
+					"level": 2,
+					"py": "tongrenshi"
+				},
+				{
+					"code": "610200000000",
+					"pcity": "陕西省",
+					"city": "铜川市",
+					"pcode": "610000000000",
+					"level": 2,
+					"py": "tongchuanshi"
+				},
+				{
+					"code": "620500000000",
+					"pcity": "甘肃省",
+					"city": "天水市",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "tianshuishi"
+				},
+				{
+					"code": "650400000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "吐鲁番市",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "tulufanshi"
+				},
+				{
+					"code": "654200000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "塔城地区",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "tachengdiqu"
+				}
+			],
+			"U": [],
+			"V": [],
+			"W": [{
+					"code": "150300000000",
+					"pcity": "内蒙古自治区",
+					"city": "乌海市",
+					"pcode": "150000000000",
+					"level": 2,
+					"py": "wuhaishi"
+				},
+				{
+					"code": "150900000000",
+					"pcity": "内蒙古自治区",
+					"city": "乌兰察布市",
+					"pcode": "150000000000",
+					"level": 2,
+					"py": "wulanchabushi"
+				},
+				{
+					"code": "320200000000",
+					"pcity": "江苏省",
+					"city": "无锡市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "wuxishi"
+				},
+				{
+					"code": "330300000000",
+					"pcity": "浙江省",
+					"city": "温州市",
+					"pcode": "330000000000",
+					"level": 2,
+					"py": "wenzhoushi"
+				},
+				{
+					"code": "340200000000",
+					"pcity": "安徽省",
+					"city": "芜湖市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "wuhushi"
+				},
+				{
+					"code": "370700000000",
+					"pcity": "山东省",
+					"city": "潍坊市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "weifangshi"
+				},
+				{
+					"code": "371000000000",
+					"pcity": "山东省",
+					"city": "威海市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "weihaishi"
+				},
+				{
+					"code": "420100000000",
+					"pcity": "湖北省",
+					"city": "武汉市",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "wuhanshi"
+				},
+				{
+					"code": "450400000000",
+					"pcity": "广西壮族自治区",
+					"city": "梧州市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "wuzhoushi"
+				},
+				{
+					"code": "532600000000",
+					"pcity": "云南省",
+					"city": "文山壮族苗族自治州",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "wenshanzhuangzumiaozuzizhizhou"
+				},
+				{
+					"code": "610500000000",
+					"pcity": "陕西省",
+					"city": "渭南市",
+					"pcode": "610000000000",
+					"level": 2,
+					"py": "weinanshi"
+				},
+				{
+					"code": "620600000000",
+					"pcity": "甘肃省",
+					"city": "武威市",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "wuweishi"
+				},
+				{
+					"code": "640300000000",
+					"pcity": "宁夏回族自治区",
+					"city": "吴忠市",
+					"pcode": "640000000000",
+					"level": 2,
+					"py": "wuzhongshi"
+				},
+				{
+					"code": "650100000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "乌鲁木齐市",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "wulumuqishi"
+				}
+			],
+			"X": [{
+					"code": "130500000000",
+					"pcity": "河北省",
+					"city": "邢台市",
+					"pcode": "130000000000",
+					"level": 2,
+					"py": "xingtaishi"
+				},
+				{
+					"code": "140900000000",
+					"pcity": "山西省",
+					"city": "忻州市",
+					"pcode": "140000000000",
+					"level": 2,
+					"py": "xinzhoushi"
+				},
+				{
+					"code": "152200000000",
+					"pcity": "内蒙古自治区",
+					"city": "兴安盟",
+					"pcode": "150000000000",
+					"level": 2,
+					"py": "xinganmeng"
+				},
+				{
+					"code": "152500000000",
+					"pcity": "内蒙古自治区",
+					"city": "锡林郭勒盟",
+					"pcode": "150000000000",
+					"level": 2,
+					"py": "xilinguolemeng"
+				},
+				{
+					"code": "320300000000",
+					"pcity": "江苏省",
+					"city": "徐州市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "xuzhoushi"
+				},
+				{
+					"code": "341800000000",
+					"pcity": "安徽省",
+					"city": "宣城市",
+					"pcode": "340000000000",
+					"level": 2,
+					"py": "xuanchengshi"
+				},
+				{
+					"code": "360500000000",
+					"pcity": "江西省",
+					"city": "新余市",
+					"pcode": "360000000000",
+					"level": 2,
+					"py": "xinyushi"
+				},
+				{
+					"code": "410700000000",
+					"pcity": "河南省",
+					"city": "新乡市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "xinxiangshi"
+				},
+				{
+					"code": "411000000000",
+					"pcity": "河南省",
+					"city": "许昌市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "xuchangshi"
+				},
+				{
+					"code": "411500000000",
+					"pcity": "河南省",
+					"city": "信阳市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "xinyangshi"
+				},
+				{
+					"code": "420600000000",
+					"pcity": "湖北省",
+					"city": "襄阳市",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "xiangyangshi"
+				},
+				{
+					"code": "420900000000",
+					"pcity": "湖北省",
+					"city": "孝感市",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "xiaoganshi"
+				},
+				{
+					"code": "421200000000",
+					"pcity": "湖北省",
+					"city": "咸宁市",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "xianningshi"
+				},
+				{
+					"code": "430300000000",
+					"pcity": "湖南省",
+					"city": "湘潭市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "xiangtanshi"
+				},
+				{
+					"code": "433100000000",
+					"pcity": "湖南省",
+					"city": "湘西土家族苗族自治州",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "xiangxitujiazumiaozuzizhizhou"
+				},
+				{
+					"code": "500200000000",
+					"pcity": "重庆市",
+					"city": "县",
+					"pcode": "500000000000",
+					"level": 2,
+					"py": "xian"
+				},
+				{
+					"code": "532800000000",
+					"pcity": "云南省",
+					"city": "西双版纳傣族自治州",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "xishuangbannadaizuzizhizhou"
+				},
+				{
+					"code": "610100000000",
+					"pcity": "陕西省",
+					"city": "西安市",
+					"pcode": "610000000000",
+					"level": 2,
+					"py": "xianshi"
+				},
+				{
+					"code": "610400000000",
+					"pcity": "陕西省",
+					"city": "咸阳市",
+					"pcode": "610000000000",
+					"level": 2,
+					"py": "xianyangshi"
+				},
+				{
+					"code": "630100000000",
+					"pcity": "青海省",
+					"city": "西宁市",
+					"pcode": "630000000000",
+					"level": 2,
+					"py": "xiningshi"
+				}
+			],
+			"Y": [{
+					"code": "140300000000",
+					"pcity": "山西省",
+					"city": "阳泉市",
+					"pcode": "140000000000",
+					"level": 2,
+					"py": "yangquanshi"
+				},
+				{
+					"code": "140800000000",
+					"pcity": "山西省",
+					"city": "运城市",
+					"pcode": "140000000000",
+					"level": 2,
+					"py": "yunchengshi"
+				},
+				{
+					"code": "210800000000",
+					"pcity": "辽宁省",
+					"city": "营口市",
+					"pcode": "210000000000",
+					"level": 2,
+					"py": "yingkoushi"
+				},
+				{
+					"code": "222400000000",
+					"pcity": "吉林省",
+					"city": "延边朝鲜族自治州",
+					"pcode": "220000000000",
+					"level": 2,
+					"py": "yanbianchaoxianzuzizhizhou"
+				},
+				{
+					"code": "230700000000",
+					"pcity": "黑龙江省",
+					"city": "伊春市",
+					"pcode": "230000000000",
+					"level": 2,
+					"py": "yichunshi"
+				},
+				{
+					"code": "320900000000",
+					"pcity": "江苏省",
+					"city": "盐城市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "yanchengshi"
+				},
+				{
+					"code": "321000000000",
+					"pcity": "江苏省",
+					"city": "扬州市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "yangzhoushi"
+				},
+				{
+					"code": "360600000000",
+					"pcity": "江西省",
+					"city": "鹰潭市",
+					"pcode": "360000000000",
+					"level": 2,
+					"py": "yingtanshi"
+				},
+				{
+					"code": "360900000000",
+					"pcity": "江西省",
+					"city": "宜春市",
+					"pcode": "360000000000",
+					"level": 2,
+					"py": "yichunshi"
+				},
+				{
+					"code": "370600000000",
+					"pcity": "山东省",
+					"city": "烟台市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "yantaishi"
+				},
+				{
+					"code": "420500000000",
+					"pcity": "湖北省",
+					"city": "宜昌市",
+					"pcode": "420000000000",
+					"level": 2,
+					"py": "yichangshi"
+				},
+				{
+					"code": "430600000000",
+					"pcity": "湖南省",
+					"city": "岳阳市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "yueyangshi"
+				},
+				{
+					"code": "430900000000",
+					"pcity": "湖南省",
+					"city": "益阳市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "yiyangshi"
+				},
+				{
+					"code": "431100000000",
+					"pcity": "湖南省",
+					"city": "永州市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "yongzhoushi"
+				},
+				{
+					"code": "441700000000",
+					"pcity": "广东省",
+					"city": "阳江市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "yangjiangshi"
+				},
+				{
+					"code": "445300000000",
+					"pcity": "广东省",
+					"city": "云浮市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "yunfushi"
+				},
+				{
+					"code": "450900000000",
+					"pcity": "广西壮族自治区",
+					"city": "玉林市",
+					"pcode": "450000000000",
+					"level": 2,
+					"py": "yulinshi"
+				},
+				{
+					"code": "511500000000",
+					"pcity": "四川省",
+					"city": "宜宾市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "yibinshi"
+				},
+				{
+					"code": "511800000000",
+					"pcity": "四川省",
+					"city": "雅安市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "yaanshi"
+				},
+				{
+					"code": "530400000000",
+					"pcity": "云南省",
+					"city": "玉溪市",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "yuxishi"
+				},
+				{
+					"code": "610600000000",
+					"pcity": "陕西省",
+					"city": "延安市",
+					"pcode": "610000000000",
+					"level": 2,
+					"py": "yananshi"
+				},
+				{
+					"code": "610800000000",
+					"pcity": "陕西省",
+					"city": "榆林市",
+					"pcode": "610000000000",
+					"level": 2,
+					"py": "yulinshi"
+				},
+				{
+					"code": "632700000000",
+					"pcity": "青海省",
+					"city": "玉树藏族自治州",
+					"pcode": "630000000000",
+					"level": 2,
+					"py": "yushuzangzuzizhizhou"
+				},
+				{
+					"code": "640100000000",
+					"pcity": "宁夏回族自治区",
+					"city": "银川市",
+					"pcode": "640000000000",
+					"level": 2,
+					"py": "yinchuanshi"
+				},
+				{
+					"code": "654000000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "伊犁哈萨克自治州",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "yilihasakezizhizhou"
+				}
+			],
+			"Z": [{
+					"code": "130700000000",
+					"pcity": "河北省",
+					"city": "张家口市",
+					"pcode": "130000000000",
+					"level": 2,
+					"py": "zhangjiakoushi"
+				},
+				{
+					"code": "140400000000",
+					"pcity": "山西省",
+					"city": "长治市",
+					"pcode": "140000000000",
+					"level": 2,
+					"py": "zhangzhishi"
+				},
+				{
+					"code": "220100000000",
+					"pcity": "吉林省",
+					"city": "长春市",
+					"pcode": "220000000000",
+					"level": 2,
+					"py": "zhangchunshi"
+				},
+				{
+					"code": "321100000000",
+					"pcity": "江苏省",
+					"city": "镇江市",
+					"pcode": "320000000000",
+					"level": 2,
+					"py": "zhenjiangshi"
+				},
+				{
+					"code": "330900000000",
+					"pcity": "浙江省",
+					"city": "舟山市",
+					"pcode": "330000000000",
+					"level": 2,
+					"py": "zhoushanshi"
+				},
+				{
+					"code": "350600000000",
+					"pcity": "福建省",
+					"city": "漳州市",
+					"pcode": "350000000000",
+					"level": 2,
+					"py": "zhangzhoushi"
+				},
+				{
+					"code": "370300000000",
+					"pcity": "山东省",
+					"city": "淄博市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "ziboshi"
+				},
+				{
+					"code": "370400000000",
+					"pcity": "山东省",
+					"city": "枣庄市",
+					"pcode": "370000000000",
+					"level": 2,
+					"py": "zaozhuangshi"
+				},
+				{
+					"code": "410100000000",
+					"pcity": "河南省",
+					"city": "郑州市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "zhengzhoushi"
+				},
+				{
+					"code": "411600000000",
+					"pcity": "河南省",
+					"city": "周口市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "zhoukoushi"
+				},
+				{
+					"code": "411700000000",
+					"pcity": "河南省",
+					"city": "驻马店市",
+					"pcode": "410000000000",
+					"level": 2,
+					"py": "zhumadianshi"
+				},
+				{
+					"code": "430100000000",
+					"pcity": "湖南省",
+					"city": "长沙市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "zhangshashi"
+				},
+				{
+					"code": "430200000000",
+					"pcity": "湖南省",
+					"city": "株洲市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "zhuzhoushi"
+				},
+				{
+					"code": "430800000000",
+					"pcity": "湖南省",
+					"city": "张家界市",
+					"pcode": "430000000000",
+					"level": 2,
+					"py": "zhangjiajieshi"
+				},
+				{
+					"code": "440400000000",
+					"pcity": "广东省",
+					"city": "珠海市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "zhuhaishi"
+				},
+				{
+					"code": "440800000000",
+					"pcity": "广东省",
+					"city": "湛江市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "zhanjiangshi"
+				},
+				{
+					"code": "441200000000",
+					"pcity": "广东省",
+					"city": "肇庆市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "zhaoqingshi"
+				},
+				{
+					"code": "442000000000",
+					"pcity": "广东省",
+					"city": "中山市",
+					"pcode": "440000000000",
+					"level": 2,
+					"py": "zhongshanshi"
+				},
+				{
+					"code": "510300000000",
+					"pcity": "四川省",
+					"city": "自贡市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "zigongshi"
+				},
+				{
+					"code": "512000000000",
+					"pcity": "四川省",
+					"city": "资阳市",
+					"pcode": "510000000000",
+					"level": 2,
+					"py": "ziyangshi"
+				},
+				{
+					"code": "520300000000",
+					"pcity": "贵州省",
+					"city": "遵义市",
+					"pcode": "520000000000",
+					"level": 2,
+					"py": "zunyishi"
+				},
+				{
+					"code": "530600000000",
+					"pcity": "云南省",
+					"city": "昭通市",
+					"pcode": "530000000000",
+					"level": 2,
+					"py": "zhaotongshi"
+				},
+				{
+					"code": "620700000000",
+					"pcity": "甘肃省",
+					"city": "张掖市",
+					"pcode": "620000000000",
+					"level": 2,
+					"py": "zhangyeshi"
+				},
+				{
+					"code": "640500000000",
+					"pcity": "宁夏回族自治区",
+					"city": "中卫市",
+					"pcode": "640000000000",
+					"level": 2,
+					"py": "zhongweishi"
+				},
+				{
+					"code": "659000000000",
+					"pcity": "新疆维吾尔自治区",
+					"city": "自治区直辖县级行政区划",
+					"pcode": "650000000000",
+					"level": 2,
+					"py": "zizhiquzhixiaxianjixingzhengquhua"
+				}
+			]
+		}
+	}
+}
