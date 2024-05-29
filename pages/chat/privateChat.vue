@@ -832,6 +832,7 @@ export default {
 	height: 100vh;
 }
 
+
 .navbar {
 	position: fixed;
 	top: 0;
@@ -866,7 +867,7 @@ export default {
 	// box-shadow: 0 0 20upx rgba(0, 0, 0, 0.15);
 	z-index: 99;
 	position: fixed;
-	top: 0;
+	top: var(--window-top);
 	.image {
 		width: 80upx;
 		height: 80upx;

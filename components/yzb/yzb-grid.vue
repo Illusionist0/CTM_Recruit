@@ -5,7 +5,7 @@
 			 :key="index" :class="[index === columnNumber ? 'uni-grid-item-last' : '','uni-grid-item-' + type]" :style="{flexBasis:100/columnNumber + '%'}"
 			 @click="onClick(i,index)">
 				<view class="uni-grid-item__content">
-					<view style="line-height: 1;">
+					<view style="line-height: 1;" class="hover-image">
 						<image class="uni-grid-item-image" :src="item.image"></image>
 					</view>
 					<text class="uni-grid-item-text">{{item.text}}</text>
@@ -100,7 +100,7 @@
 			display: flex;
 			position: relative;
 			flex-direction: column;
-
+			// box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(0, 0, 0, 0.1);
 			&:before {
 				display: block;
 				content: " ";
@@ -149,12 +149,13 @@
 			}
 
 			&-image {
+				// box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.1);
 				width: $uni-img-size-lg;
 				height: $uni-img-size-lg;
 			}
 		}
 	}
-
+	
 	.uni-grid .uni-grid__flex:first-child .uni-grid-item:after {
 		border-top-width: 1px;
 	}
@@ -219,7 +220,11 @@
 	}
 	
 	.uni-grid-item-image{
+		
 		width: 80upx;
 		height: 80upx;
+	}
+	.hover-image:hover{
+		transform: scale(1.4);
 	}
 </style>

@@ -2,7 +2,7 @@
 	<view class="m-position">
 		<view class="item" v-for="(item, index) in positions" :key="index" @click="onClick(item)">
 			<view class="title space-between">
-				<text class="left">{{item.postName}}</text>
+				<text class="left">{{item.postName}}{{item.postName}}</text>
 				<text class="right">{{item.salary}}</text>
 			</view>
 			<view class="company">
@@ -60,9 +60,19 @@ export default {
 	.item {
 		background-color: $bgcolor_white;
 		padding: 30upx 20upx;
-		// margin-bottom: 20upx;
+		margin-bottom: 40upx;
 		border-bottom: 3upx solid $border-color-light;
 	}
+}
+.m-position:hover .item{
+	filter: blur(6px);
+	opacity: .4;
+}
+.m-position .item:hover{
+	box-sizing: -10px 20px 35px rgba(0,0,0,.17);
+	transform: scale(1.5);
+	filter: blur(0);
+	opacity: .1;
 }
 .space-between {
 	display: flex;

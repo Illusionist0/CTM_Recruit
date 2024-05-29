@@ -1,5 +1,5 @@
 <template>
-	<view class="content">
+	<view class="container">
 		<view class="top">
 			<view class="navbar" :style="{ height: navBarHeight + 'px' }"><text style="font-size: 32upx;">人才直聘</text>
 			</view>
@@ -17,7 +17,7 @@
 		</view>
 		<view :style="{ 'margin-top': topHeight + 'px' }">
 			<!-- 轮播图 -->
-			<m-swiper :list="banner" :previousMargin="30" :nextMargin="30"></m-swiper>
+			<m-swiper :list="banner" :previousMargin="30" :nextMargin="30" @clickImg="onClickImg"></m-swiper>
 			<!-- <m-ad :list="adList"></m-ad> -->
 			<template v-if="hasLogin == false || (hasLogin && userInfo.memberRole == 0)">
 				<view style="padding: 20upx 0;background-color: #FFFFFF;">
@@ -28,7 +28,18 @@
 						@goItem="goItem" @goMore="goMore"></yzb-notice>
 				</view>
 				<view class="post">
-					<view class="title"><text class="name">热门职位</text></view>
+					<view class="title"><view class="name">
+					<p>热招职位</p>
+					</view>
+					<!-- <svg>
+						<filter id="fire">
+							<feTurbulence id="turblence" baseFrequency="0.1 0.1" numOctaves="2" seed="3">
+								<animate attributeName="baseFrequency" dur="5s" values="0.1 0.1;0.12 0.2" repeatCount="indefinite"></animate>
+							</feTurbulence>
+							<feDisplacementMap in="SourceGraphic" scale="80"></feDisplacementMap>
+						</filter>
+					</svg> -->
+					</view>
 					<view class="post-list">
 						<view v-for="(item, index) in postList" :key="index" @click="toPost(item)">
 							<text class="post-item"
@@ -107,10 +118,12 @@
 					page: 1,
 					limit: 10
 				},
-				banner: [
-					{
-						pic:"../../static/bg.jpg"
-					}
+				banner: [{
+						pic: "../../static/bg.jpg"
+					},
+					// {
+					// 	pic: "../../static/招聘.png"
+					// },
 				],
 				grid: [],
 				ka: [],
@@ -244,6 +257,12 @@
 			this.getDatasByLoc('add');
 		},
 		methods: {
+			onClickImg(index) {
+				console.log('xx-' + index)
+				uni.navigateTo({
+					url: 'http://www.nanchangrcw.cn/'
+				})
+			},
 			//需要位置信息的
 			getDatasByLoc(type = 'refresh', pulldown = false) {
 				console.log('memberRole===', this.userInfo.memberRole);
@@ -460,24 +479,24 @@
 						path: this.$mRoutesConfig.positionList,
 						type: 3
 					},
-					{
-						image: this.$mAssetsPath.grid_4,
-						text: '兼职招聘',
-						path: this.$mRoutesConfig.positionList,
-						type: 4
-					},
-					{
-						image: this.$mAssetsPath.grid_5,
-						text: '公司列表',
-						path: this.$mRoutesConfig.companyList,
-						type: 5
-					},
-					{
-						image: this.$mAssetsPath.grid_6,
-						text: '法律知识',
-						path: this.$mRoutesConfig.lawList,
-						type: 4
-					},
+					// {
+					// 	image: this.$mAssetsPath.grid_4,
+					// 	text: '兼职招聘',
+					// 	path: this.$mRoutesConfig.positionList,
+					// 	type: 4
+					// },
+					// {
+					// 	image: this.$mAssetsPath.grid_5,
+					// 	text: '公司列表',
+					// 	path: this.$mRoutesConfig.companyList,
+					// 	type: 5
+					// },
+					// {
+					// 	image: this.$mAssetsPath.grid_6,
+					// 	text: '法律知识',
+					// 	path: this.$mRoutesConfig.lawList,
+					// 	type: 4
+					// },
 					{
 						image: this.$mAssetsPath.grid_10,
 						text: '公告资讯',
@@ -490,18 +509,18 @@
 						path: this.$mRoutesConfig.taskList,
 						type: 5
 					},
-					{
-						image: this.$mAssetsPath.grid_9,
-						text: '联系客服',
-						path: this.$mRoutesConfig.contactUs,
-						type: 5
-					},
-					{
-						image: this.$mAssetsPath.grid_7,
-						text: '系统消息',
-						path: this.$mRoutesConfig.notices,
-						type: 5
-					}
+					// {
+					// 	image: this.$mAssetsPath.grid_9,
+					// 	text: '联系客服',
+					// 	path: this.$mRoutesConfig.contactUs,
+					// 	type: 5
+					// },
+					// {
+					// 	image: this.$mAssetsPath.grid_7,
+					// 	text: '系统消息',
+					// 	path: this.$mRoutesConfig.notices,
+					// 	type: 5
+					// }
 				];
 			},
 
@@ -576,7 +595,7 @@
 				if (this.location.city == '未定位') {
 					//#ifdef MP-WEIXIN
 					this.locationAuth();
-					//#endif
+					// #endif
 				} else {
 					uni.navigateTo({
 						url: '/pages/index/selectCity'
@@ -777,13 +796,17 @@
 </script>
 
 <style lang="scss" scoped>
+	.container{
+		// opacity: .4;
+	}
 	.top {
+		
 		position: fixed;
 		top: 0;
 		z-index: 100;
 		width: 100%;
 		background-color: $main-color;
-		background-image: linear-gradient(#01BEFF, #3995f9);
+		// background-image: linear-gradient(#01BEFF, #3995f9);
 	}
 
 	.navbar {
@@ -919,20 +942,38 @@
 	}
 
 	.title {
-		background-color: #ffffff;
 		// border-top: 15upx solid $border-color-light;
 		padding: 30upx 20upx;
 		border-bottom: 1upx solid $border-color-light;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-
-		.name {
+		// filter: blur(5px);
+		.name{
+			position: relative;
+			width: 100%;
+			// text-align: center;
+			// filter:url(#fire);
+			// filter:brightness(0);
+		}
+		.name p{
+		    font-size: $font-size-34;
+		    color: $main-color;
 			font-weight: bold;
-			font-size: $font-size-34;
+		}
+		@keyframes wave{
+		    from{
+		        background-position: 0 -10px;
+		    }
+		    to{
+		        background-position: 1000px -10px;
+		    }
 		}
 	}
-
+	svg{
+		width:0;
+		height:0;
+	}
 	.expect {
 		padding: 25upx 2%;
 		margin-top: 20upx;

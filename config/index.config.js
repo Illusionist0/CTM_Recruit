@@ -5,8 +5,11 @@ const CONFIG = {
                 copyrightTxt: "人才直聘v1.0", // 版本信息
                 assetsPath: "/static/img", // 静态资源路径
                 // baseUrl: "http://localhost:8099/api",
-				baseUrl: "https://job.qinkonglan.cn/api",
-				// baseUrl: "/api",//H5请选用该地址调试
+				// baseUrl: "https://localhost:8080",
+				// baseUrl: "https://job.qinkonglan.cn/api",
+				// baseUrl:"http://81.69.194.235:8099/api",
+				baseUrl: "https://81.69.194.235:8200/api",
+				 // baseUrl: "/api",//H5请选用该地址调试
                 tokenKey: "WECHAT_TRADE", // 登录标识
                 testOpenId: "oEjRxwy7jL9PgG0kWeb4VcDTZEas", // 小程序测试openId
                 forcedLogin: false, // touristMode游客模式下APP是否强制用户登录 场景：当用户进入登录页面后无法后退。
@@ -19,7 +22,10 @@ const CONFIG = {
                 copyrightTxt: "人才直聘v1.0", // 版本信息
                 assetsPath: "/static/img", // 静态资源路径
 				// baseUrl: "http://192.168.0.106:8092/api",
-                baseUrl: "https://job.qinkonglan.cn/api",
+                // baseUrl: "https://job.qinkonglan.cn/api",
+				// baseUrl:"http://81.69.194.235:8099/api",
+				// baseUrl: "https://localhost:8080",
+				baseUrl: "https://wx.liushaotou.ltd:8099/api",
                 tokenKey: "WECHAT_TRADE", // 登录标识
                 testOpenId: "oEjRxwy7jL9PgG0kWeb4VcDTZEas", // 小程序测试openId
                 forcedLogin: false, // touristMode游客模式下APP是否强制用户登录 场景：当用户进入登录页面后无法后退。

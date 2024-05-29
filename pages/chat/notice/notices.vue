@@ -8,14 +8,16 @@
 				:key="index"
 				:title="item.title"
 				:avatar="item.pic"
+				avatar-circle="true"
 				:note="item.summary"
 				:time="formatCreateTime(item.createTime)"
-				@click="toDetail(item)"
-				:clickable="clickable"
-				badge-positon="left"
+				clickable="true"
+				badge-positon="right"
 				badge-text="dot"
 				:showBadge="item.ifRead"
+				@click="toDetail(item)"
 			></uni-list-chat>
+			<!-- click无效 -->
 		</uni-list>
 	</view>
 </template>
@@ -39,14 +41,15 @@ export default {
 			clickable:true,
 			unreadTotal: 0,
 			where: {},
-			data: [
-				{
-					title: '系统通知',
-					summary: '人才直聘新版本即将上线，敬请期待~~~~',
-					createTime: '2022-04-26',
-					pic: '/static/logo.png'
-				}
-			],
+			data:[],
+			// data: [
+			// 	{
+			// 		title: '系统通知',
+			// 		summary: '人才直聘新版本即将上线，敬请期待~~~~',
+			// 		createTime: '2022-04-26',
+			// 		pic: '/static/logo.png'
+			// 	}
+			// ],
 			loading: false,
 			no_order_1: this.$mAssetsPath.no_order_1
 		};
@@ -66,7 +69,7 @@ export default {
 		async getNoticeList() {
 			let param = {
 				page: 1,
-				limit: 1
+				// limit: 1
 			};
 			let res = await this.$apis.getNoticeList(param);
 			console.log('getNoticeList===', res);
@@ -77,7 +80,7 @@ export default {
 		},
 
 		toDetail(item) {
-			console.log(item);
+			console.log('toDetail', item);
 			this.$mRouter.push({
 				route: this.$mRoutesConfig.noticeDetail,
 				query: {

@@ -105,7 +105,7 @@ export default {
 				},
 				{
 					icon: 'yzb-fasong',
-					text: '我的投递',
+					text: '求职反馈',
 					// badge: '1',
 					type: 'success',
 					to: this.$mRoutesConfig.apply,

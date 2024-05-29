@@ -50,9 +50,13 @@ export default {
 <style lang="scss">
 .list {
 	padding: 20upx;
+	background-color: $border-color-light;
 	.item {
-		padding: 10upx;
-		border-bottom: 1upx solid $border-color-light;
+		padding: 30upx 20upx;
+		margin-bottom: 20upx;
+		background-color: #fff;
+		border-radius:8px ;
+		// border-bottom: 1upx solid $border-color-light;
 	}
 	.top {
 		display: flex;
@@ -101,5 +105,14 @@ export default {
 			color: $font-color-666;
 		}
 	}
+}
+.list:hover .item{
+	// filter: blur(2px);
+	opacity: .4;
+}
+.list .item:hover{
+	filter: blur(0);
+	opacity: 1;
+	transform: scale(1.02);
 }
 </style>

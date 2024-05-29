@@ -138,15 +138,15 @@ export default {
 					{ name: '附件简历', show: true, icon: '/static/img/my/upload.png', url: this.$mRoutesConfig.resumeFile },
 					// { name: '我的钱包', show: true, icon: '/static/img/my/qianbao.png', url: this.$mRoutesConfig.wallet },
 					// { name: '我的分享', icon: '/static/img/my/share.png', url: this.$mRoutesConfig.share },
-					// { name: '外包任务', show: true, icon: '/static/img/my/list.png', url: this.$mRoutesConfig.task  },
-					// { name: '我的课程', show: true, icon: '/static/img/my/love.png', url: this.$mRoutesConfig.collect },
+					{ name: '外包任务', show: true, icon: '/static/img/my/list.png', url: this.$mRoutesConfig.task  },
+					{ name: '我的订阅', show: true, icon: '/static/img/my/love.png', url: this.$mRoutesConfig.collect },
 					{ name: '浏览记录', show: true, icon: '/static/img/my/zixun.png', url: this.$mRoutesConfig.browse },
-					{ name: '隐私设置', show: true, icon: '/static/img/my/faxian.png', url: this.$mRoutesConfig.hideSetting },
+					// { name: '隐私设置', show: true, icon: '/static/img/my/faxian.png', url: this.$mRoutesConfig.hideSetting },
 					{ name: '不感兴趣', show: true, icon: '/static/img/my/faxian.png', url: this.$mRoutesConfig.hideSetting },
 					// { name: '我要招聘', show: true, icon: '/static/img/my/switch.png', url: 'zhaopin' }
 				],
 				[
-					{ name: '客服中心', show: true, icon: '/static/img/my/contactus.png', url: this.$mRoutesConfig.robot },
+					// { name: '客服中心', show: true, icon: '/static/img/my/contactus.png', url: this.$mRoutesConfig.robot },
 					{ name: '关于我们', show: true, icon: '/static/img/my/aboutus.png', url: this.$mRoutesConfig.aboutUs },
 					// { name: '帮助中心', show: true, icon: 'yzb-bangzhu1', url: null },
 					// { name: '意见反馈', show: true, icon: 'yzb-yuangongfankui', url: null },
@@ -412,7 +412,9 @@ page {
 	&.status {
 		padding-top: var(--status-bar-height);
 	}
-	background-color: $main-color;
+	// background-color: $main-color;
+	// background-image: linear-gradient(#01BEFF, #3995f9);
+	background-image: linear-gradient(#26cd8c, #00C7A1);
 	width: 92%;
 	height: 30vw;
 	padding: 0 4%;
@@ -467,7 +469,9 @@ page {
 }
 
 .w-list {
-	background-color: $main-color;
+	background-image: linear-gradient(to top,#26cd8c, #00C7A1);
+	// background-image: linear-gradient(to top,#01BEFF, #3995f9);
+	// background-color: $main-color;
 	width: 100%;
 	height: 20vw;
 	padding: 0 4%;

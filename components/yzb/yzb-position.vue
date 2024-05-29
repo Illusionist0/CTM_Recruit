@@ -102,12 +102,26 @@ export default {
 
 <style lang="scss">
 .m-position {
+	background-color: $border-color-light;
 	.item {
 		background-color: $bgcolor_white;
 		padding: 30upx 20upx;
-		// margin-bottom: 20upx;
-		border-bottom: 10upx solid $border-color-light;
+		margin-left: 20upx;
+		margin-right: 20upx;
+		margin-bottom: 20upx;
+		// border-bottom: 10upx solid $border-color-light;
+		border-radius: 8px;
 	}
+}
+.m-position:hover .item{
+	// filter: blur(6px);
+	opacity: .4;
+}
+.m-position .item:hover{
+	box-sizing: -10px 20px 35px rgba(0,0,0,.17);
+	transform: scale(1.02);
+	filter: blur(0);
+	opacity: 1;
 }
 .space-between {
 	display: flex;
