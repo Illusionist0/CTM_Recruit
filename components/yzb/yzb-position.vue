@@ -23,7 +23,7 @@
 					{{ item.companyNature }}
 				</view>
 				<view class="right">
-					<text class="address">{{formatDistance(item.distance)}}</text>
+					<!-- <text class="address">{{formatDistance(item.distance)}}</text> -->
 				</view>
 			</view>
 			<view class="desc">

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "招聘会",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "m-swiper": "/components/m-swiper/m-swiper2",
+    "yzb-task": "/components/yzb/yzb-task",
+    "yzb-filter-dropdown": "/components/yzb/yzb-filterDropdown"
+  }
+}

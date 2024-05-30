@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "资讯详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "m-swiper": "/components/m-swiper/m-swiper2"
+  }
+}

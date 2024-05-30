@@ -8,7 +8,7 @@ const CONFIG = {
 				// baseUrl: "https://localhost:8080",
 				// baseUrl: "https://job.qinkonglan.cn/api",
 				// baseUrl:"http://81.69.194.235:8099/api",
-				baseUrl: "https://81.69.194.235:8200/api",
+				baseUrl: "https://wx.liushaotou.ltd:8099/api",
 				 // baseUrl: "/api",//H5请选用该地址调试
                 tokenKey: "WECHAT_TRADE", // 登录标识
                 testOpenId: "oEjRxwy7jL9PgG0kWeb4VcDTZEas", // 小程序测试openId

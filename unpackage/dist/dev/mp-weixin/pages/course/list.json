@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "资讯列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "cc-order-tabs": "/uni_modules/cc-orderTabs/components/cc-orderTabs/cc-orderTabs",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "m-swiper": "/components/m-swiper/m-swiper2",
+    "yzb-course": "/components/yzb/yzb-course",
+    "yzb-article": "/components/yzb/yzb-article",
+    "m-ad": "/components/m-ad/m-ad",
+    "yzbfilter-dropdown": "/components/yzb/yzb-filterDropdown"
+  }
+}
